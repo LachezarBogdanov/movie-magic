@@ -6,3 +6,5 @@ JS Back-End Movie-Magic workshop
  2. Setup Express
  3. View engine
  4. Add resources
+ 5. Setup static route
+ 6. Render home page
