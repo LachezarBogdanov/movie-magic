@@ -8,3 +8,4 @@ JS Back-End Movie-Magic workshop
  4. Add resources
  5. Setup static route
  6. Render home page
+ 7. Extract partial template
