@@ -12,3 +12,4 @@ JS Back-End Movie-Magic workshop
  8. Extract partial template
  9. Add service and data layers
  10. Create page
+ 11. Add details page
