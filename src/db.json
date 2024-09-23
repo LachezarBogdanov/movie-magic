@@ -2,7 +2,7 @@
   "movies": [
     {
       "id": "1",
-      "name": "Jungle Cuise",
+      "title": "Jungle Cuise",
       "imageUrl": "/img/jungle-cruise.jpeg",
       "genre": "Adventure",
       "rating": 9,
@@ -10,7 +10,7 @@
     },
     {
       "id": "2",
-      "name": "The Little Mermaid",
+      "title": "The Little Mermaid",
       "imageUrl": "/img/the-little-mermaid.jpg",
       "genre": "Fantasy",
       "rating": 5,
@@ -18,7 +18,7 @@
     },
     {
       "id": "3",
-      "name": "Home Alone",
+      "title": "Home Alone",
       "imageUrl": "/img/home-alone.jpeg",
       "genre": "Comedy",
       "rating": 7,
@@ -30,9 +30,19 @@
       "director": "Zack Snyder",
       "year": "2013",
       "imageUrl": "data:image/jpeg;base64,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",
-      "rating":  10,
+      "rating": 10,
       "description": "asdfasdfsdfasdfasd",
       "id": "166lro138m1e25tzm"
+    },
+    {
+      "title": "Fast and Furious 7",
+      "genre": "Action",
+      "director": "James Wan",
+      "year": "2015",
+      "imageUrl": "https://th.bing.com/th/id/R.6d83158449fadf4df3a5d7a3d15539e2?rik=soEFtJ7NLXVLCA&pid=ImgRaw&r=0",
+      "rating": 10,
+      "description": "Deckard Shaw seeks revenge against Dominic Toretto and his family for his comatose brother.",
+      "id": "166lro7csm1f1198a"
     }
   ]
 }

@@ -13,3 +13,4 @@ JS Back-End Movie-Magic workshop
  9. Add service and data layers
  10. Create page
  11. Add details page
+ 12. Add search page
