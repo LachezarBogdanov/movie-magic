@@ -21,7 +21,7 @@ const getAll = async (filter = {}) => {
 
 const create = (movie) => Movie.create(movie);
 
-const getOne = async (movieId) => Movie.findById(movieId);
+const getOne = (movieId) => Movie.findById(movieId);
 
 export default {
     getAll,
