@@ -1,7 +1,7 @@
 # movie-magic
 JS Back-End Movie-Magic workshop
 
-## Steps
+## Steps - 1
  1. Initial Project Architecture 
  2. Setup Express
  3. View engine
@@ -14,3 +14,8 @@ JS Back-End Movie-Magic workshop
  10. Create page
  11. Add details page
  12. Add search page
+
+## Steps - 2
+ 1. Extract config files
+ 2. Setup mongoose
+ 3. Add models
