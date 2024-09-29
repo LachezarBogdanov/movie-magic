@@ -18,4 +18,5 @@ JS Back-End Movie-Magic workshop
 ## Steps - 2
  1. Extract config files
  2. Setup mongoose
- 3. Add models
+ 3. Add movie model
+ 4. Refactor file based storage to db storage
