@@ -20,3 +20,5 @@ JS Back-End Movie-Magic workshop
  2. Setup mongoose
  3. Add movie model
  4. Refactor file based storage to db storage
+ 5. Add cast model
+ 6. Add create cast page
