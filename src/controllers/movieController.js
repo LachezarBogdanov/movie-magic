@@ -3,6 +3,10 @@ import movieService from "../services/movieService.js";
 
 const router = Router();
 
+function toArray(documents) {
+    return documents.map(document => document.toObject());
+}
+
 router.get('/create', (req, res) => {
     res.render('movies/create')
 })
@@ -30,7 +34,7 @@ router.get('/search', async (req, res) => {
     const query = req.query;
     const movies = await movieService.getAll(query);
 
-    res.render('home', {isSearch: true, movies, query});
+    res.render('home', {isSearch: true, movies: toArray(movies), query});
 })
 
 
