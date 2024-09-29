@@ -20,11 +20,12 @@
                             </div>
 
                             <p class="disc">Description: {{movie.description}}</p>
+
+                            <a href="/movies/{{movie._id}}/attach" class="details" style="display: inline-block;">Attach</a>
                         </div>
                     </div>
                     <div class="card_right">
-                        <img src="{{movie.imageUrl}}"
-                            alt="{{movie.title}}">
+                        <img src="{{movie.imageUrl}}" alt="{{movie.title}}">
                     </div>
                 </div>
 

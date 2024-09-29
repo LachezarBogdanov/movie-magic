@@ -22,3 +22,4 @@ JS Back-End Movie-Magic workshop
  4. Refactor file based storage to db storage
  5. Add cast model
  6. Add create cast page
+ 7. Add atach cast page
