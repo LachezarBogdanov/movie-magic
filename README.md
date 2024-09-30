@@ -23,3 +23,4 @@ JS Back-End Movie-Magic workshop
  5. Add cast model
  6. Add create cast page
  7. Add atach cast page
+ 8. Show casts in details page
