@@ -24,3 +24,10 @@ JS Back-End Movie-Magic workshop
  6. Add create cast page
  7. Add atach cast page
  8. Show casts in details page
+
+ ## Steps - 3
+ 1. Add register page
+  - [ ] Add user model
+  - [ ] Add Auth controller
+  - [ ] Add auth service
+ 2. Add login page
