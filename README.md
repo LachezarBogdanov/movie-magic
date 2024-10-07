@@ -32,3 +32,6 @@ JS Back-End Movie-Magic workshop
   - [x] Add auth service
   - [x] Hash password before save
  2. Add login page
+    - [x] Validate hashed password
+    - [x] create jwt token
+    - [x] add token to cookie
