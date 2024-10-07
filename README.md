@@ -27,7 +27,8 @@ JS Back-End Movie-Magic workshop
 
  ## Steps - 3
  1. Add register page
-  - [ ] Add user model
-  - [ ] Add Auth controller
-  - [ ] Add auth service
+  - [x] Add user model
+  - [x] Add Auth controller
+  - [x] Add auth service
+  - [x] Hash password before save
  2. Add login page
