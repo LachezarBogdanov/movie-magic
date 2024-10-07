@@ -23,7 +23,6 @@ router.post('/create', async (req, res) => {
 router.get('/:movieId/details', async (req, res) => {
     const movieId = req.params.movieId;
     const movie = await movieService.getOne(movieId).lean();
-    console.log(movie);
     
     movie.ratingView = getRatingView(movie.rating);
 
@@ -39,8 +38,7 @@ router.get('/search', async (req, res) => {
 
 router.get('/:movieId/attach', async (req, res) => {
     const movie = await movieService.getOne(req.params.movieId).lean();
-    const casts = await castService.getAll().lean();
-
+    const casts = await castService.getAll(movie.casts).lean();
 
     res.render('movies/attach', { movie, casts });
 })
