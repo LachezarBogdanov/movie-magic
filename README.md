@@ -35,3 +35,4 @@ JS Back-End Movie-Magic workshop
     - [x] Validate hashed password
     - [x] create jwt token
     - [x] add token to cookie
+ 3. Add authorization
