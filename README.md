@@ -36,3 +36,4 @@ JS Back-End Movie-Magic workshop
     - [x] create jwt token
     - [x] add token to cookie
  3. Add authorization
+   - [ ]Add owner controll buttons in details page
