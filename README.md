@@ -41,4 +41,7 @@ JS Back-End Movie-Magic workshop
    - [x] Edit movie
    - [x] Add dynamic navigation
    - [x] Logout
-   - [ ] Add route guard
+   - [x] Add route guard
+   - [x] Automatic login for registered users
+   - [x] Show user email for logged in users
+   - [x] Make jwt library asynchronous
