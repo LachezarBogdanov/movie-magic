@@ -38,5 +38,7 @@ JS Back-End Movie-Magic workshop
  3. Add authorization
    - [x] Add owner relation to movie
    - [x] Add owner controll buttons in details page
-   - [ ] Edit movie
-   - [ ] Add dynamic navigation
+   - [x] Edit movie
+   - [x] Add dynamic navigation
+   - [x] Logout
+   - [ ] Add route guard
