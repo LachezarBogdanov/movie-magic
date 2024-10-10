@@ -71,6 +71,15 @@ router.get('/:movieId/edit', async (req, res) => {
     res.render('movies/edit', { movie });
 });
 
+router.post('/:movieId/edit', async (req, res) => {
+    const movieData = req.body;
+    const movieId = req.params.movieId;
+
+    await movieService.edit(movieId, movieData);
+
+    res.redirect(`/movies/${movieId}/details`);
+})
+
 
 function getRatingView(rating) {
     if(!Number.isInteger(rating)) {
