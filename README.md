@@ -37,4 +37,6 @@ JS Back-End Movie-Magic workshop
     - [x] add token to cookie
  3. Add authorization
    - [x] Add owner relation to movie
-   - [ ]Add owner controll buttons in details page
+   - [x] Add owner controll buttons in details page
+   - [ ] Edit movie
+   - [ ] Add dynamic navigation
